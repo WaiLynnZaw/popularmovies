@@ -6,10 +6,10 @@
     </style>
 
 
-    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#43a047</item>
-        <item name="colorPrimaryDark">#388e3c</item>
-        <item name="colorAccent">#FF4081</item>
+    <style name="Base.Theme.PopularMovies" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#e4e4e4</item>
+        <item name="colorPrimaryDark">#d4d4d4</item>
+        <item name="colorAccent">#e4e4e4</item>
         <item name="android:windowBackground">@color/white</item>
     </style>
 

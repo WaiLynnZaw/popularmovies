@@ -5,12 +5,14 @@ import android.content.Context;
 import com.wlz.popularmovies.BuildConfig;
 import com.wlz.popularmovies.R;
 import com.wlz.popularmovies.model.MovieResults;
+import com.wlz.popularmovies.model.MovieTrailerResults;
 import com.wlz.popularmovies.util.Constants;
 
 import retrofit.Callback;
 import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
 import retrofit.http.GET;
+import retrofit.http.Path;
 import retrofit.http.Query;
 
 /**
@@ -23,6 +25,8 @@ public interface MovieService {
     @GET(Constants.DISCOVER_MOVIE_RATING)
     void getTopRatedMovies(@Query("page") int page, Callback<MovieResults> callback);
 
+    @GET(Constants.MOVIE_TRAILER)
+    void getMovieTrailers(@Path("id") String id, Callback<MovieTrailerResults> callback);
 
     class Implementation {
         public static MovieService get(Context context) {

@@ -9,4 +9,5 @@ public class Constants {
     public static final String DISCOVER_MOVIE_RATING = "discover/movie?sort_by=vote_average.desc&vote_count.gte=1000";
     public static final String POSTER_URL = "http://image.tmdb.org/t/p/w185";
     public static final String BACKDROP_URL = "http://image.tmdb.org/t/p/w342";
+    public static final String MOVIE_TRAILER = "/movie/{id}/videos";
 }
