@@ -7,8 +7,6 @@ import com.wlz.popularmovies.R;
 import com.wlz.popularmovies.model.MovieResults;
 import com.wlz.popularmovies.util.Constants;
 
-import java.util.List;
-
 import retrofit.Callback;
 import retrofit.RequestInterceptor;
 import retrofit.RestAdapter;
